@@ -2,26 +2,24 @@ import torch
 from torch.utils.data import Dataset, DataLoader
 import torchaudio
 from load_data import *
-from transformers import Wav2Vec2Model, Wav2Vec2Processor
-from icecream import ic
-from transformers import AutoTokenizer, DistilBertModel
+from transformers import Wav2Vec2Processor
+from transformers import CamembertTokenizer
 
 raw_data = load_all_ipus("Dataset/transcr")
 filepath = "Dataset/audio/2_channels/"
 
-wave2vec_model = "facebook/wav2vec2-base-960h"
-processor = Wav2Vec2Processor.from_pretrained(wave2vec_model)
-wave2vec_model = Wav2Vec2Model.from_pretrained(wave2vec_model)
+wave2vec_name = "facebook/wav2vec2-base-960h"
+processor = Wav2Vec2Processor.from_pretrained(wave2vec_name)
 
-bert_model = 'distilbert-base-uncased'
-tokenizer = AutoTokenizer.from_pretrained(bert_model)
-bert_model = DistilBertModel.from_pretrained(bert_model)
+bert_name = 'camembert-base'
+tokenizer = CamembertTokenizer.from_pretrained(bert_name)
 
 def get_audio(i, raw_data, filepath):
     audio_file_path =  filepath + raw_data["dyad"][i].replace("transcr\\","") + ".wav"
-    audio_tensor, frame_rate = torchaudio.load(audio_file_path)
-    stop = int(frame_rate*raw_data["stop"][i])
-    start = stop-frame_rate*1
+    audio_tensor, sampling_rate = torchaudio.load(audio_file_path)
+    audio_tensor = processor(audio_tensor, return_tensors="pt", sampling_rate = sampling_rate).input_values.squeeze(0)
+    stop = int(sampling_rate*raw_data["stop"][i])
+    start = stop-sampling_rate*1
     if start < 0:
         sample_tensor = audio_tensor[:,0:stop]
         sample_tensor = torch.cat((torch.zeros((2,abs(start))),sample_tensor),dim=1)
@@ -53,15 +51,11 @@ class DataGenerator(Dataset):
     def __len__(self):
         return len(self.raw_data)
     
-def create_dataloader(raw_data, filepath):
-    
-    generator = DataGenerator(raw_data, 
-                              filepath)
+def create_dataloader(generator):
     
     dataloader = DataLoader(generator,
-                            batch_size=32,
+                            batch_size=34,
                             shuffle=True,
                             drop_last=True,)
     
     return dataloader
-
