@@ -30,7 +30,7 @@ def get_audio(i, raw_data, filepath):
 def get_text(i, raw_data):
     text = raw_data["text"][i]
     text_tokenized = tokenizer(text, return_tensors="pt")['input_ids']
-    text_tokenized = torch.cat((torch.tensor([[1026, 11687,  1028]*7]),text_tokenized),dim=1)
+    text_tokenized = torch.cat((torch.tensor([[1]*20]),text_tokenized),dim=1)
     text_tokenized = text_tokenized[:,-20:]
     return text_tokenized.squeeze(0)
 
@@ -54,7 +54,7 @@ class DataGenerator(Dataset):
 def create_dataloader(generator):
     
     dataloader = DataLoader(generator,
-                            batch_size=34,
+                            batch_size=64,
                             shuffle=True,
                             drop_last=True,)
     
