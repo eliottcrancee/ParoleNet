@@ -1,0 +1,31 @@
+name : ParoleNet_0.1
+
+get_audio:
+  duration: 2
+
+get_text:
+  context_length: 20
+  pad_token: "<pad>"
+
+training:
+  batch_size: 64
+  nb_epochs: 10
+  scheduler:
+    initial_lr: 0.001
+    step_size: 5
+    gamma: 0.1
+
+ParoleNet:
+  input_dim: None
+  hidden_dim: 32
+  output_dim: 2
+  dropout_p: 0.1
+
+evaluate: 
+  turn_after: 0.184756
+
+sampling: 
+  seed: 42
+  test_fraction: 0.1
+  val_fraction: 0.1
+
