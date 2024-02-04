@@ -1,4 +1,4 @@
-name : ParoleNet_0.1
+name : ParoleNet_0.3
 
 get_audio:
   duration: 2
@@ -8,8 +8,8 @@ get_text:
   pad_token: "<pad>"
 
 training:
-  batch_size: 64
-  nb_epochs: 10
+  batch_size: 96
+  nb_epochs: 20
   scheduler:
     initial_lr: 0.001
     step_size: 5
@@ -25,7 +25,7 @@ evaluate:
   turn_after: 0.184756
 
 sampling: 
-  seed: 42
-  test_fraction: 0.1
-  val_fraction: 0.1
+  seed: 2002
+  test_fraction: 0.05
+  val_fraction: 0.05
 
