@@ -1,5 +1,9 @@
-import yaml
 import torch
+import torch.nn as nn
+import numpy as np
+import torch.nn.functional as F
+
+import yaml
 import logging
 
 
@@ -18,6 +22,7 @@ def load_yaml_parameters(file_path: str) -> dict:
         config = yaml.safe_load(f)
     return config
 
+
 def save_yaml_parameters(config: dict, file_path: str):
     """
     Save parameters to a YAML file.
@@ -25,7 +30,8 @@ def save_yaml_parameters(config: dict, file_path: str):
     with open(file_path, "w") as f:
         yaml.dump(config, f)
 
-def create_logger(name: str, filename: str, level = logging.INFO) -> logging.Logger:
+
+def create_logger(name: str, filename: str, level=logging.INFO) -> logging.Logger:
     """
     Create a logger with the specified name and output file.
     """
@@ -34,7 +40,13 @@ def create_logger(name: str, filename: str, level = logging.INFO) -> logging.Log
     logger.setLevel(level)
     ch = logging.StreamHandler()
     ch.setLevel(level)
-    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    formatter = logging.Formatter(
+        "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    )
     ch.setFormatter(formatter)
     logger.addHandler(ch)
     return logger
+
+
+def dict_to_device(dict, device):
+    return {key: value.to(device) for key, value in dict.items()}

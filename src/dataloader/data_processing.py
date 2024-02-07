@@ -32,7 +32,6 @@ def get_audio(
     Load audio data from file and return a tensor sample.
     """
     audio_file_path = audio_path + raw_data["dyad"][i].replace("transcr\\", "") + ".wav"
-
     sampling_rate = torchaudio.info(audio_file_path).sample_rate
     stop = int(sampling_rate * raw_data["stop"][i])
     start = stop - int(sampling_rate * duration)
@@ -44,7 +43,7 @@ def get_audio(
         ).input_values.squeeze(0)
         sample_tensor = torch.cat((torch.zeros((2, abs(start))), sample_tensor), dim=1)
     else:
-        sample_tensor, _ =  torchaudio.load(audio_file_path, start, stop-start)
+        sample_tensor, _ = torchaudio.load(audio_file_path, start, stop - start)
         sample_tensor = audio_processor(
             sample_tensor, return_tensors="pt", sampling_rate=sampling_rate
         ).input_values.squeeze(0)
@@ -98,7 +97,7 @@ class DataGenerator(Dataset):
         duration: float,
         context_length: int,
         pad_token: str,
-    ):
+    ) -> None:
         self.raw_data = raw_data
         self.audio_path = audio_path
         self.duration = duration
@@ -112,7 +111,7 @@ class DataGenerator(Dataset):
             "label": get_label(i, self.raw_data),
         }
 
-    def __len__(self):
+    def __len__(self) -> int:
         return len(self.raw_data)
 
 
@@ -133,6 +132,7 @@ def create_dataloader(generator: DataGenerator, batch_size: int = 32) -> DataLoa
 if __name__ == "__main__":
 
     dir_path = up(up(up(os.path.abspath(__file__))))
+    print(dir_path)
     audio_path = dir_path + "/dataset/audio/2_channels/"
     raw_data = load_all_ipus(dir_path + "/dataset/transcr")
 
