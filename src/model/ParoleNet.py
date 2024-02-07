@@ -230,7 +230,6 @@ class ParoleNet(torch.nn.Module):
             self.evaluate(test_loader)
 
     def launch(self, data: pd.core.frame.DataFrame, audio_path: str):
-        self.train_loop(data, audio_path)
         try:
             self.train_loop(data, audio_path)
             self.logger.info(
