@@ -38,12 +38,14 @@ def get_audio(
 
     if start < 0:
         sample_tensor, _ = torchaudio.load(audio_file_path, 0, stop)
+        sample_tensor = torch.mean(sample_tensor, dim=0)
         sample_tensor = audio_processor(
             sample_tensor, return_tensors="pt", sampling_rate=sampling_rate
         ).input_values.squeeze(0)
-        sample_tensor = torch.cat((torch.zeros((2, abs(start))), sample_tensor), dim=1)
+        sample_tensor = torch.cat((torch.zeros(abs(start)), sample_tensor))
     else:
         sample_tensor, _ = torchaudio.load(audio_file_path, start, stop - start)
+        sample_tensor = torch.mean(sample_tensor, dim=0)
         sample_tensor = audio_processor(
             sample_tensor, return_tensors="pt", sampling_rate=sampling_rate
         ).input_values.squeeze(0)

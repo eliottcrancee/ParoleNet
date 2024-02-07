@@ -94,9 +94,7 @@ class ParoleNet(torch.nn.Module):
 
     def forward(self, input_data: torch.Tensor) -> torch.Tensor:
 
-        sample_tensor = torch.mean(input_data["audio"], dim=1)
-        wave2vec_output = wave2vec_model(sample_tensor).last_hidden_state
-
+        wave2vec_output = wave2vec_model(input_data["audio"]).last_hidden_state
         bert_output = bert_model(input_data["text"]).last_hidden_state
 
         combined_output = torch.cat(
@@ -232,6 +230,7 @@ class ParoleNet(torch.nn.Module):
             self.evaluate(test_loader)
 
     def launch(self, data: pd.core.frame.DataFrame, audio_path: str):
+        self.train_loop(data, audio_path)
         try:
             self.train_loop(data, audio_path)
             self.logger.info(
