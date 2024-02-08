@@ -1,0 +1,226 @@
+INFO:ParoleNet_1:EPOCH 1:
+INFO:ParoleNet_1:Validation :
+INFO:ParoleNet_1:Classe 0 | Precision: 89.56%, Recall: 51.61%, F1 Score: 65.48%
+INFO:ParoleNet_1:Classe 1 | Precision: 24.06%, Recall: 71.81%, F1 Score: 36.05%
+INFO:ParoleNet_1:Score : 0.4122556746006012
+INFO:ParoleNet_1:Test :
+INFO:ParoleNet_1:Classe 0 | Precision: 89.86%, Recall: 51.59%, F1 Score: 65.55%
+INFO:ParoleNet_1:Classe 1 | Precision: 23.90%, Recall: 72.30%, F1 Score: 35.92%
+INFO:ParoleNet_1:Score : 0.4107148349285126
+INFO:ParoleNet_1:EPOCH 2:
+INFO:ParoleNet_1:Validation :
+INFO:ParoleNet_1:Classe 0 | Precision: 90.32%, Recall: 53.14%, F1 Score: 66.91%
+INFO:ParoleNet_1:Classe 1 | Precision: 25.16%, Recall: 73.46%, F1 Score: 37.49%
+INFO:ParoleNet_1:Score : 0.42684435844421387
+INFO:ParoleNet_1:Test :
+INFO:ParoleNet_1:Classe 0 | Precision: 90.78%, Recall: 53.55%, F1 Score: 67.36%
+INFO:ParoleNet_1:Classe 1 | Precision: 24.91%, Recall: 73.91%, F1 Score: 37.26%
+INFO:ParoleNet_1:Score : 0.42453059554100037
+INFO:ParoleNet_1:EPOCH 3:
+INFO:ParoleNet_1:Validation :
+INFO:ParoleNet_1:Classe 0 | Precision: 86.49%, Recall: 81.22%, F1 Score: 83.77%
+INFO:ParoleNet_1:Classe 1 | Precision: 31.33%, Recall: 40.31%, F1 Score: 35.25%
+INFO:ParoleNet_1:Score : 0.43758079409599304
+INFO:ParoleNet_1:Test :
+INFO:ParoleNet_1:Classe 0 | Precision: 85.67%, Recall: 81.33%, F1 Score: 83.44%
+INFO:ParoleNet_1:Classe 1 | Precision: 28.20%, Recall: 35.02%, F1 Score: 31.24%
+INFO:ParoleNet_1:Score : 0.40277621150016785
+INFO:ParoleNet_1:EPOCH 4:
+INFO:ParoleNet_1:Validation :
+INFO:ParoleNet_1:Classe 0 | Precision: 88.38%, Recall: 66.50%, F1 Score: 75.89%
+INFO:ParoleNet_1:Classe 1 | Precision: 27.50%, Recall: 59.23%, F1 Score: 37.56%
+INFO:ParoleNet_1:Score : 0.4433184564113617
+INFO:ParoleNet_1:Test :
+INFO:ParoleNet_1:Classe 0 | Precision: 87.96%, Recall: 66.19%, F1 Score: 75.54%
+INFO:ParoleNet_1:Classe 1 | Precision: 25.70%, Recall: 56.36%, F1 Score: 35.31%
+INFO:ParoleNet_1:Score : 0.4222218096256256
+INFO:ParoleNet_1:EPOCH 5:
+INFO:ParoleNet_1:Validation :
+INFO:ParoleNet_1:Classe 0 | Precision: 87.86%, Recall: 72.22%, F1 Score: 79.28%
+INFO:ParoleNet_1:Classe 1 | Precision: 29.05%, Recall: 53.28%, F1 Score: 37.60%
+INFO:ParoleNet_1:Score : 0.4493473470211029
+INFO:ParoleNet_1:Test :
+INFO:ParoleNet_1:Classe 0 | Precision: 87.57%, Recall: 71.67%, F1 Score: 78.82%
+INFO:ParoleNet_1:Classe 1 | Precision: 26.85%, Recall: 50.55%, F1 Score: 35.07%
+INFO:ParoleNet_1:Score : 0.4253526031970978
+INFO:ParoleNet_1:EPOCH 6:
+INFO:ParoleNet_1:Validation :
+INFO:ParoleNet_1:Classe 0 | Precision: 87.36%, Recall: 78.65%, F1 Score: 82.78%
+INFO:ParoleNet_1:Classe 1 | Precision: 31.84%, Recall: 46.72%, F1 Score: 37.87%
+INFO:ParoleNet_1:Score : 0.4577273726463318
+INFO:ParoleNet_1:Test :
+INFO:ParoleNet_1:Classe 0 | Precision: 86.91%, Recall: 78.19%, F1 Score: 82.32%
+INFO:ParoleNet_1:Classe 1 | Precision: 29.17%, Recall: 43.27%, F1 Score: 34.85%
+INFO:ParoleNet_1:Score : 0.43005844950675964
+INFO:ParoleNet_1:EPOCH 7:
+INFO:ParoleNet_1:Validation :
+INFO:ParoleNet_1:Classe 0 | Precision: 87.20%, Recall: 78.65%, F1 Score: 82.70%
+INFO:ParoleNet_1:Classe 1 | Precision: 31.48%, Recall: 45.95%, F1 Score: 37.36%
+INFO:ParoleNet_1:Score : 0.45340636372566223
+INFO:ParoleNet_1:Test :
+INFO:ParoleNet_1:Classe 0 | Precision: 87.05%, Recall: 78.70%, F1 Score: 82.67%
+INFO:ParoleNet_1:Classe 1 | Precision: 30.02%, Recall: 43.84%, F1 Score: 35.64%
+INFO:ParoleNet_1:Score : 0.4375244975090027
+INFO:ParoleNet_1:EPOCH 8:
+INFO:ParoleNet_1:Validation :
+INFO:ParoleNet_1:Classe 0 | Precision: 87.19%, Recall: 79.21%, F1 Score: 83.01%
+INFO:ParoleNet_1:Classe 1 | Precision: 32.08%, Recall: 45.77%, F1 Score: 37.72%
+INFO:ParoleNet_1:Score : 0.45717698335647583
+INFO:ParoleNet_1:Test :
+INFO:ParoleNet_1:Classe 0 | Precision: 86.84%, Recall: 78.72%, F1 Score: 82.58%
+INFO:ParoleNet_1:Classe 1 | Precision: 29.32%, Recall: 42.55%, F1 Score: 34.72%
+INFO:ParoleNet_1:Score : 0.4294455945491791
+INFO:ParoleNet_1:EPOCH 9:
+INFO:ParoleNet_1:Validation :
+INFO:ParoleNet_1:Classe 0 | Precision: 87.25%, Recall: 78.98%, F1 Score: 82.91%
+INFO:ParoleNet_1:Classe 1 | Precision: 31.82%, Recall: 45.95%, F1 Score: 37.60%
+INFO:ParoleNet_1:Score : 0.45570915937423706
+INFO:ParoleNet_1:Test :
+INFO:ParoleNet_1:Classe 0 | Precision: 86.73%, Recall: 78.59%, F1 Score: 82.46%
+INFO:ParoleNet_1:Classe 1 | Precision: 29.60%, Recall: 42.81%, F1 Score: 35.00%
+INFO:ParoleNet_1:Score : 0.43246224522590637
+INFO:ParoleNet_1:EPOCH 10:
+INFO:ParoleNet_1:Validation :
+INFO:ParoleNet_1:Classe 0 | Precision: 87.24%, Recall: 78.38%, F1 Score: 82.57%
+INFO:ParoleNet_1:Classe 1 | Precision: 31.59%, Recall: 46.54%, F1 Score: 37.64%
+INFO:ParoleNet_1:Score : 0.45573264360427856
+INFO:ParoleNet_1:Test :
+INFO:ParoleNet_1:Classe 0 | Precision: 87.03%, Recall: 78.25%, F1 Score: 82.41%
+INFO:ParoleNet_1:Classe 1 | Precision: 28.64%, Recall: 42.80%, F1 Score: 34.32%
+INFO:ParoleNet_1:Score : 0.4246465265750885
+INFO:ParoleNet_1:EPOCH 11:
+INFO:ParoleNet_1:Validation :
+INFO:ParoleNet_1:Classe 0 | Precision: 87.26%, Recall: 78.48%, F1 Score: 82.64%
+INFO:ParoleNet_1:Classe 1 | Precision: 31.50%, Recall: 46.33%, F1 Score: 37.50%
+INFO:ParoleNet_1:Score : 0.4544222950935364
+INFO:ParoleNet_1:Test :
+INFO:ParoleNet_1:Classe 0 | Precision: 86.92%, Recall: 78.66%, F1 Score: 82.58%
+INFO:ParoleNet_1:Classe 1 | Precision: 29.25%, Recall: 42.70%, F1 Score: 34.72%
+INFO:ParoleNet_1:Score : 0.429146409034729
+INFO:ParoleNet_1:EPOCH 12:
+INFO:ParoleNet_1:Validation :
+INFO:ParoleNet_1:Classe 0 | Precision: 87.44%, Recall: 78.52%, F1 Score: 82.74%
+INFO:ParoleNet_1:Classe 1 | Precision: 31.50%, Recall: 46.69%, F1 Score: 37.62%
+INFO:ParoleNet_1:Score : 0.4549570381641388
+INFO:ParoleNet_1:Test :
+INFO:ParoleNet_1:Classe 0 | Precision: 86.99%, Recall: 78.48%, F1 Score: 82.52%
+INFO:ParoleNet_1:Classe 1 | Precision: 28.68%, Recall: 42.44%, F1 Score: 34.23%
+INFO:ParoleNet_1:Score : 0.4240524172782898
+INFO:ParoleNet_1:EPOCH 13:
+INFO:ParoleNet_1:Validation :
+INFO:ParoleNet_1:Classe 0 | Precision: 87.26%, Recall: 78.55%, F1 Score: 82.67%
+INFO:ParoleNet_1:Classe 1 | Precision: 31.76%, Recall: 46.54%, F1 Score: 37.75%
+INFO:ParoleNet_1:Score : 0.4568796455860138
+INFO:ParoleNet_1:Test :
+INFO:ParoleNet_1:Classe 0 | Precision: 86.61%, Recall: 78.23%, F1 Score: 82.21%
+INFO:ParoleNet_1:Classe 1 | Precision: 28.89%, Recall: 42.24%, F1 Score: 34.31%
+INFO:ParoleNet_1:Score : 0.42603054642677307
+INFO:ParoleNet_1:EPOCH 14:
+INFO:ParoleNet_1:Validation :
+INFO:ParoleNet_1:Classe 0 | Precision: 87.34%, Recall: 78.48%, F1 Score: 82.67%
+INFO:ParoleNet_1:Classe 1 | Precision: 31.68%, Recall: 46.72%, F1 Score: 37.75%
+INFO:ParoleNet_1:Score : 0.4565744996070862
+INFO:ParoleNet_1:Test :
+INFO:ParoleNet_1:Classe 0 | Precision: 86.89%, Recall: 78.51%, F1 Score: 82.49%
+INFO:ParoleNet_1:Classe 1 | Precision: 29.10%, Recall: 42.70%, F1 Score: 34.62%
+INFO:ParoleNet_1:Score : 0.42813587188720703
+INFO:ParoleNet_1:EPOCH 15:
+INFO:ParoleNet_1:Validation :
+INFO:ParoleNet_1:Classe 0 | Precision: 87.24%, Recall: 78.38%, F1 Score: 82.57%
+INFO:ParoleNet_1:Classe 1 | Precision: 31.59%, Recall: 46.54%, F1 Score: 37.64%
+INFO:ParoleNet_1:Score : 0.45573264360427856
+INFO:ParoleNet_1:Test :
+INFO:ParoleNet_1:Classe 0 | Precision: 86.63%, Recall: 78.44%, F1 Score: 82.33%
+INFO:ParoleNet_1:Classe 1 | Precision: 29.28%, Recall: 42.45%, F1 Score: 34.65%
+INFO:ParoleNet_1:Score : 0.4293919801712036
+INFO:ParoleNet_1:EPOCH 16:
+INFO:ParoleNet_1:Validation :
+INFO:ParoleNet_1:Classe 0 | Precision: 87.25%, Recall: 78.40%, F1 Score: 82.59%
+INFO:ParoleNet_1:Classe 1 | Precision: 31.41%, Recall: 46.33%, F1 Score: 37.44%
+INFO:ParoleNet_1:Score : 0.45385056734085083
+INFO:ParoleNet_1:Test :
+INFO:ParoleNet_1:Classe 0 | Precision: 86.85%, Recall: 78.15%, F1 Score: 82.27%
+INFO:ParoleNet_1:Classe 1 | Precision: 28.57%, Recall: 42.49%, F1 Score: 34.17%
+INFO:ParoleNet_1:Score : 0.4237512946128845
+INFO:ParoleNet_1:EPOCH 17:
+INFO:ParoleNet_1:Validation :
+INFO:ParoleNet_1:Classe 0 | Precision: 87.24%, Recall: 78.38%, F1 Score: 82.57%
+INFO:ParoleNet_1:Classe 1 | Precision: 31.59%, Recall: 46.54%, F1 Score: 37.64%
+INFO:ParoleNet_1:Score : 0.45573264360427856
+INFO:ParoleNet_1:Test :
+INFO:ParoleNet_1:Classe 0 | Precision: 86.78%, Recall: 78.38%, F1 Score: 82.37%
+INFO:ParoleNet_1:Classe 1 | Precision: 29.38%, Recall: 42.96%, F1 Score: 34.90%
+INFO:ParoleNet_1:Score : 0.43115532398223877
+INFO:ParoleNet_1:EPOCH 18:
+INFO:ParoleNet_1:Validation :
+INFO:ParoleNet_1:Classe 0 | Precision: 87.34%, Recall: 78.48%, F1 Score: 82.67%
+INFO:ParoleNet_1:Classe 1 | Precision: 31.68%, Recall: 46.72%, F1 Score: 37.75%
+INFO:ParoleNet_1:Score : 0.4565744996070862
+INFO:ParoleNet_1:Test :
+INFO:ParoleNet_1:Classe 0 | Precision: 86.88%, Recall: 78.31%, F1 Score: 82.38%
+INFO:ParoleNet_1:Classe 1 | Precision: 28.54%, Recall: 42.28%, F1 Score: 34.07%
+INFO:ParoleNet_1:Score : 0.42285433411598206
+INFO:ParoleNet_1:EPOCH 19:
+INFO:ParoleNet_1:Validation :
+INFO:ParoleNet_1:Classe 0 | Precision: 87.25%, Recall: 78.40%, F1 Score: 82.59%
+INFO:ParoleNet_1:Classe 1 | Precision: 31.41%, Recall: 46.33%, F1 Score: 37.44%
+INFO:ParoleNet_1:Score : 0.45385056734085083
+INFO:ParoleNet_1:Test :
+INFO:ParoleNet_1:Classe 0 | Precision: 86.86%, Recall: 78.67%, F1 Score: 82.56%
+INFO:ParoleNet_1:Classe 1 | Precision: 28.89%, Recall: 42.12%, F1 Score: 34.28%
+INFO:ParoleNet_1:Score : 0.4251583516597748
+INFO:ParoleNet_1:EPOCH 20:
+INFO:ParoleNet_1:Validation :
+INFO:ParoleNet_1:Classe 0 | Precision: 87.24%, Recall: 78.38%, F1 Score: 82.57%
+INFO:ParoleNet_1:Classe 1 | Precision: 31.59%, Recall: 46.54%, F1 Score: 37.64%
+INFO:ParoleNet_1:Score : 0.45573264360427856
+INFO:ParoleNet_1:Test :
+INFO:ParoleNet_1:Classe 0 | Precision: 87.04%, Recall: 78.57%, F1 Score: 82.59%
+INFO:ParoleNet_1:Classe 1 | Precision: 29.70%, Recall: 43.64%, F1 Score: 35.35%
+INFO:ParoleNet_1:Score : 0.43465498089790344
+INFO:ParoleNet_1:EPOCH 21:
+INFO:ParoleNet_1:Validation :
+INFO:ParoleNet_1:Classe 0 | Precision: 87.25%, Recall: 78.40%, F1 Score: 82.59%
+INFO:ParoleNet_1:Classe 1 | Precision: 31.41%, Recall: 46.33%, F1 Score: 37.44%
+INFO:ParoleNet_1:Score : 0.45385056734085083
+INFO:ParoleNet_1:Test :
+INFO:ParoleNet_1:Classe 0 | Precision: 86.63%, Recall: 78.38%, F1 Score: 82.30%
+INFO:ParoleNet_1:Classe 1 | Precision: 29.03%, Recall: 42.24%, F1 Score: 34.41%
+INFO:ParoleNet_1:Score : 0.4270268380641937
+INFO:ParoleNet_1:EPOCH 22:
+INFO:ParoleNet_1:Validation :
+INFO:ParoleNet_1:Classe 0 | Precision: 87.25%, Recall: 78.47%, F1 Score: 82.62%
+INFO:ParoleNet_1:Classe 1 | Precision: 31.68%, Recall: 46.54%, F1 Score: 37.69%
+INFO:ParoleNet_1:Score : 0.45630547404289246
+INFO:ParoleNet_1:Test :
+INFO:ParoleNet_1:Classe 0 | Precision: 86.79%, Recall: 78.52%, F1 Score: 82.45%
+INFO:ParoleNet_1:Classe 1 | Precision: 29.70%, Recall: 43.17%, F1 Score: 35.19%
+INFO:ParoleNet_1:Score : 0.4340130090713501
+INFO:ParoleNet_1:EPOCH 23:
+INFO:ParoleNet_1:Validation :
+INFO:ParoleNet_1:Classe 0 | Precision: 87.34%, Recall: 78.42%, F1 Score: 82.64%
+INFO:ParoleNet_1:Classe 1 | Precision: 31.41%, Recall: 46.51%, F1 Score: 37.50%
+INFO:ParoleNet_1:Score : 0.454115629196167
+INFO:ParoleNet_1:Test :
+INFO:ParoleNet_1:Classe 0 | Precision: 86.87%, Recall: 78.59%, F1 Score: 82.53%
+INFO:ParoleNet_1:Classe 1 | Precision: 29.95%, Recall: 43.53%, F1 Score: 35.48%
+INFO:ParoleNet_1:Score : 0.4365740418434143
+INFO:ParoleNet_1:EPOCH 24:
+INFO:ParoleNet_1:Validation :
+INFO:ParoleNet_1:Classe 0 | Precision: 87.33%, Recall: 78.40%, F1 Score: 82.62%
+INFO:ParoleNet_1:Classe 1 | Precision: 31.59%, Recall: 46.72%, F1 Score: 37.69%
+INFO:ParoleNet_1:Score : 0.4560002088546753
+INFO:ParoleNet_1:Test :
+INFO:ParoleNet_1:Classe 0 | Precision: 86.61%, Recall: 78.23%, F1 Score: 82.21%
+INFO:ParoleNet_1:Classe 1 | Precision: 28.89%, Recall: 42.24%, F1 Score: 34.31%
+INFO:ParoleNet_1:Score : 0.42603054642677307
+INFO:ParoleNet_1:EPOCH 25:
+INFO:ParoleNet_1:Validation :
+INFO:ParoleNet_1:Classe 0 | Precision: 87.25%, Recall: 78.40%, F1 Score: 82.59%
+INFO:ParoleNet_1:Classe 1 | Precision: 31.41%, Recall: 46.33%, F1 Score: 37.44%
+INFO:ParoleNet_1:Score : 0.45385056734085083
+INFO:ParoleNet_1:Test :
+INFO:ParoleNet_1:Classe 0 | Precision: 86.85%, Recall: 78.26%, F1 Score: 82.33%
+INFO:ParoleNet_1:Classe 1 | Precision: 29.06%, Recall: 42.91%, F1 Score: 34.65%
+INFO:ParoleNet_1:Score : 0.4284979999065399
+INFO:ParoleNet_1:EPOCH 26:
