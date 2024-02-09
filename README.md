@@ -31,7 +31,7 @@ Le modèle élaboré est exposé dans la **Figure 2**. Il se compose d’une pre
 ![Texte alternatif](images/schema.png)
 ##### Figure 2 - Schéma du modèle.
 
-Après l’extraction du tenseur, le modèle le transmet à une cascade de couche dense, de fonction d’activation ReLU et de dropout de 10%. Sur la sortie est appliquée un softmax, ce processus représente ainsi une prédiction exprimée sous forme de densité de probabilité pour les deux classes.
+Après l’extraction du tenseur, le modèle le transmet à une cascade de couche dense, de fonction d’activation ReLU et de dropout de 10%. Sur la sortie est appliquée un softmax, ce processus représente ainsi une prédiction exprimée sous forme de probabilité pour les deux classes.
 
 # Métrique et apprentissage
 
@@ -52,8 +52,8 @@ Nous avons entrainé le modèle sur le jeu de donnée présenté en section 2. V
 
 | Classe      | Precision   | Rappel      | $F_1$       |
 |-------------|-------------|-------------|-------------|
-| 0           | 85.03       | 73.84       | 79.04       |
-| 1           | 28.19       | 44.14       | 34.41       |
+| 0           | 85.66       | 75.40       | 80.21       |
+| 1           | 32.14       | 48.00       | 38.50       |
 
 ##### Figure 4 - Résultats du modèle à la fin de l’apprentissage.
 
@@ -61,5 +61,4 @@ Le $F_1$ score pondéré évolue de 13 à 42. On remarque que le modèle ne renv
 
 # Conclusion
 
-En conclusion, notre étude sur la prédiction de l’attribution de la parole dans un dialogue à deux participants a révélé des résultats prometteurs, démontrant la capacité du modèle à anticiper le tour de parole avec une performance supérieure à un modèle initialisé au hasard. L’analyse approfondie des résultats suggère une compréhension significative du lien entre les données d’entrée et la prédiction du tour de parole. Cependant, malgré ces avancées, des perspectives d’amélioration subsistent. Il est crucial d’explorer davantage les mécanismes internes du modèle pour garantir que l’apprentissage ne se limite pas à une simple corrélation statistique. Nous sommes confiants dans la solidité de la métrique qui a été utilisée, mais elle doit être
-explorée d’avantage.
+En conclusion, notre étude sur la prédiction de l’attribution de la parole dans un dialogue à deux participants a révélé des résultats prometteurs, démontrant la capacité du modèle à anticiper le tour de parole avec une performance supérieure à un modèle initialisé au hasard. L’analyse approfondie des résultats suggère une compréhension significative du lien entre les données d’entrée et la prédiction du tour de parole. Cependant, malgré ces avancées, des perspectives d’amélioration subsistent. Il est crucial d’explorer davantage les mécanismes internes du modèle pour garantir que l’apprentissage ne se limite pas à une simple corrélation statistique. Nous sommes confiants dans la solidité de la métrique qui a été utilisée, mais elle doit être explorée d’avantage.

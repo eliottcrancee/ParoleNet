@@ -1,0 +1,25 @@
+ParoleNet:
+  dropout_p: 0.1
+  hidden_dim_1_layer: 128
+  hidden_dim_2_layer: 32
+  input_dim: None
+  output_dim: 2
+evaluate:
+  turn_after: 0.184756
+get_audio:
+  duration: 2
+get_text:
+  context_length: 20
+  pad_token: <pad>
+name: ParoleNet_1
+sampling:
+  seed: 1515
+  test_fraction: 0.05
+  val_fraction: 0.05
+training:
+  batch_size: 128
+  nb_epochs: 20
+  scheduler:
+    gamma: 0.1
+    initial_lr: 0.0001
+    step_size: 4
