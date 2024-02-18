@@ -1,3 +1,15 @@
+# ParoleNet
+
+ParoleNet is a multimodal model for predicting turn-taking in conversations. Its primary objective is to determine, at the end of a given sentence, whether the current speaker will continue speaking or yield the floor to their interlocutor. It takes as input the last 20 words of the sentence and the final two seconds of the audio recording, performing classification into two turn-taking classes.
+
+🔍 **Key Highlights:**
+- Trained on a specific French-language dataset containing 16,400 sentences.
+- Achieved promising results surpassing random initialization, indicating the model's ability to anticipate turn-taking.
+- Statistical analysis suggests the model understands the relationship between input data and turn-taking prediction, rather than relying solely on frequency-based predictions.
+- Demonstrates significant learning, validating the effectiveness of our approach.
+
+# Table des matières
+
 - [ParoleNet](#parolenet)
 - [Présentation du problème et des données](#présentation-du-problème-et-des-données)
         - [Figure 1 - Tableau du dataset.](#figure-1---tableau-du-dataset)
